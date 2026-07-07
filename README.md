@@ -261,12 +261,10 @@ The platform embeds glassmorphic redirection cards that link to an external/inte
 
 ## 🖼️ User Interface Screenshots
 
-<!-- TODO: Add landing.png, setup.png, workspace.png, and dashboard.png to screenshots/ folder
 * **Landing page:** ![Landing Page](./screenshots/landing.png)
 * **Practice Setup:** ![Practice Setup](./screenshots/setup.png)
 * **Code Workspace:** ![Code Workspace](./screenshots/workspace.png)
 * **Radar Dashboard:** ![Radar Dashboard](./screenshots/dashboard.png)
--->
 
 ---
 
