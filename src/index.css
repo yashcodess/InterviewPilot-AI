@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-input-border: var(--input-border);
+  --color-text: var(--text);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-bright: var(--text-bright);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+
+  --color-navbar: var(--navbar-bg);
+  --shadow-navbar: var(--navbar-shadow);
+  --shadow-card: var(--card-shadow);
+  --shadow-card-hover: var(--card-hover-shadow);
+
+  /* Maintain backward compatibility with previous color-slate mappings */
+  --color-slate-50: var(--text-bright);
+  --color-slate-100: var(--text-bright);
+  --color-slate-200: var(--text);
+  --color-slate-300: var(--text);
+  --color-slate-400: var(--text-secondary);
+  --color-slate-450: var(--text-secondary);
+  --color-slate-500: var(--text-secondary);
+  --color-slate-600: var(--text-secondary);
+  --color-slate-700: var(--border);
+  --color-slate-800: var(--border);
+  --color-slate-850: var(--input-border);
+  --color-slate-900: var(--card);
+  --color-slate-950: var(--background);
+
+  /* Map missing non-standard utility values used in UI files */
+  --color-slate-205: var(--text-secondary);
+  --color-slate-250: var(--text-secondary);
+  --color-slate-350: var(--text-secondary);
+  --color-slate-355: var(--text-secondary);
+  --color-slate-450: var(--text-secondary);
+  --color-slate-455: var(--text-secondary);
+  --color-slate-650: var(--text-secondary);
+  --color-slate-805: var(--border);
+  
+  --color-rose-450: var(--danger);
+  --color-emerald-450: var(--success);
+  --color-amber-405: var(--warning);
+  --color-blue-455: var(--primary);
+
+  --color-brand-50: #f0f7ff;
+  --color-brand-100: #e0effe;
+  --color-brand-200: #bae0fd;
+  --color-brand-300: #7cc7fc;
+  --color-brand-400: #38a8f9;
+  --color-brand-500: #0e8ce2;
+  --color-brand-600: #026ebf;
+  --color-brand-700: #03589b;
+  --color-brand-800: #074b80;
+  --color-brand-900: #0c3f6a;
+  --color-brand-950: #082846;
+
+  --color-accent-purple: #a855f7;
+  --color-accent-blue: #3b82f6;
+  --color-accent-teal: #14b8a6;
+  
+  --color-blue-500: var(--primary);
+  --color-blue-600: var(--primary-hover);
+  --color-blue-700: var(--primary-hover);
+  
+  --color-bg: var(--background);
+  --color-card-bg: var(--card);
+  --color-text-bright: var(--text-bright);
+  --color-text-light: var(--text-bright);
+  --color-text-muted: var(--text-secondary);
+  --color-brand-primary: var(--primary);
+  --color-brand-primary-hover: var(--primary-hover);
+  --color-shadow: var(--shadow);
+  
+  --color-hero-bg: var(--hero-bg);
+  --color-hero-border: var(--hero-border);
+}
+
+:root {
+  --background: #030712;
+  --surface: #0f172a;
+  --card: rgba(15, 23, 42, 0.65);
+  --border: rgba(255, 255, 255, 0.08);
+  --input-border: #1e293b;
+  --text: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-bright: #ffffff;
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --shadow: rgba(0, 0, 0, 0.4);
+  --primary-glow: rgba(37, 99, 235, 0.06);
+  --navbar-bg: rgba(9, 13, 22, 0.85);
+  --navbar-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+  --card-hover-shadow: 0 12px 30px -4px rgba(0, 0, 0, 0.6);
+  --hero-bg: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(3, 7, 18, 0.95) 100%);
+  --hero-border: rgba(255, 255, 255, 0.08);
+  color-scheme: dark;
+}
+
+.light {
+  --background: #F5F7FB;
+  --surface: #F8FAFC;
+  --card: #FFFFFF;
+  --border: #E2E8F0;
+  --input-border: #E2E8F0;
+  --text: #0F172A;
+  --text-secondary: #475569;
+  --text-bright: #0F172A;
+  --primary: #2563EB;
+  --primary-hover: #1D4ED8;
+  --success: #10B981;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+  --shadow: rgba(15, 23, 42, 0.03);
+  --primary-glow: rgba(37, 99, 235, 0.08);
+  --navbar-bg: rgba(255, 255, 255, 0.8);
+  --navbar-shadow: 0 1px 2px rgba(15, 23, 42, 0.02), 0 4px 16px -2px rgba(15, 23, 42, 0.03);
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.01), 0 4px 18px rgba(15, 23, 42, 0.03), 0 12px 36px rgba(15, 23, 42, 0.04);
+  --card-hover-shadow: 0 1px 4px rgba(0, 0, 0, 0.01), 0 10px 30px rgba(15, 23, 42, 0.06), 0 24px 60px rgba(15, 23, 42, 0.08);
+  --hero-bg: linear-gradient(135deg, #EBF3FF 0%, #FFFFFF 100%);
+  --hero-border: #D0E2FF;
+  color-scheme: light;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  overflow-x: hidden;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Glassmorphism & SaaS Card overrides */
+.glass {
+  background: var(--color-card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--card-shadow);
+  transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.light .glass {
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--card-shadow);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 12px;
+}
+
+.light .glass:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-hover-shadow);
+  border-color: #cbd5e1;
+}
+
+.glass-light {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border);
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.light .glass-light {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+/* Inputs, Selects, Textareas overrides */
+input, select, textarea {
+  background-color: var(--color-card-bg) !important;
+  border-color: var(--color-input-border) !important;
+  color: var(--color-text-bright) !important;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.light input, .light select, .light textarea {
+  background-color: #FFFFFF !important;
+  border: 1px solid var(--color-input-border) !important;
+  color: var(--color-text-bright) !important;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.02);
+}
+
+.light input:focus, .light select:focus, .light textarea:focus {
+  border-color: var(--color-brand-primary) !important;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15), 0 1px 2px 0 rgba(15, 23, 42, 0.02);
+}
+
+.light input::placeholder, .light textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Radar Chart customization classes */
+.radar-grid {
+  stroke: var(--color-border) !important;
+}
+
+.radar-label {
+  fill: var(--color-text-muted) !important;
+}
+
+.radar-vertex {
+  stroke: var(--color-card-bg) !important;
+}
+
+/* Glowing grids for premium landing page background */
+.grid-bg {
+  background-image: 
+    linear-gradient(var(--color-border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-border) 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: center center;
+}
+
+/* Custom radial glows */
+.radial-glow {
+  background: radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.1), transparent 70%);
+}
+
+.radial-glow-blue {
+  background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.1), transparent 70%);
+}
+
+.light .radial-glow {
+  background: radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.04), transparent 75%);
+}
+
+.light .radial-glow-blue {
+  background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.04), transparent 75%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.4);
+}
+
+/* Typing indicator wave */
+@keyframes wave {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-4px); }
+}
+
+.dot-wave {
+  animation: wave 1.2s infinite ease-in-out;
+}
+
+/* Printable Report Styles */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+    font-family: 'Inter', system-ui, sans-serif !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .glass, .glass-light {
+    background: transparent !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    color: #000000 !important;
+  }
+  .text-transparent {
+    color: #000000 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+  }
+  .radar-grid {
+    stroke: #e2e8f0 !important;
+  }
+  .radar-polygon {
+    fill: rgba(59, 130, 246, 0.15) !important;
+    stroke: #3b82f6 !important;
+  }
+}

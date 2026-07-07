@@ -1,0 +1,16 @@
+{
+  "short_name": "InterviewPilot",
+  "name": "InterviewPilot AI - AI-Powered Mock Interview Platform",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#090d16",
+  "theme_color": "#2563eb",
+  "display": "standalone",
+  "orientation": "portrait"
+}
