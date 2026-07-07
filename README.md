@@ -1,18 +1,24 @@
 # ✈️ InterviewPilot AI
 
-<div align="center">
-  <!-- TODO: Add logo-placeholder.png to screenshots/ folder
-  <img src="./screenshots/logo-placeholder.png" alt="InterviewPilot AI Logo" width="120" height="120" style="border-radius: 24px; margin-bottom: 16px;" />
-  -->
-  
-  <p><strong>A Modern, High-Fidelity, AI-Powered Mock Interview Simulator.</strong></p>
+<p align="center">
+  <img src="./screenshots/banner.png" alt="InterviewPilot AI Banner" width="100%">
+</p>
 
-  [![React](https://img.shields.github.io/badge/React-19.0-blue.svg?logo=react&logoColor=white)](https://react.dev/)
-  [![TypeScript](https://img.shields.github.io/badge/TypeScript-5.x-blue.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-  [![Tailwind CSS](https://img.shields.github.io/badge/Tailwind_CSS-v4.0-38bdf8.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-  [![Google Gemini](https://img.shields.github.io/badge/Google_Gemini-2.5_Flash-orange.svg?logo=google-gemini&logoColor=white)](https://ai.google.dev/)
-  [![Judge0](https://img.shields.github.io/badge/Code_Execution-Judge0_CE-green.svg)](https://judge0.com/)
-  [![License](https://img.shields.github.io/badge/License-MIT-green.svg)](LICENSE)
+<div align="center">
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1200&color=7C3AED&center=true&vCenter=true&width=900&lines=AI-Powered+Mock+Interview+Platform;Practice+Technical+%26+Behavioral+Interviews;Real-Time+AI+Feedback+%7C+Code+Execution;Built+with+React+%2B+TypeScript+%2B+Gemini+AI" />
+</p>
+
+  <p align="center">
+
+[![React](https://img.shields.io/badge/React-19.0-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Gemini](https://img.shields.io/badge/Gemini-2.5_Flash-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
+[![Judge0](https://img.shields.io/badge/Judge0-Code_Execution-2ECC71)](https://judge0.com/)
+[![License](https://img.shields.io/badge/License-MIT-success)](LICENSE)
+
+</p>
 </div>
 
 ---
