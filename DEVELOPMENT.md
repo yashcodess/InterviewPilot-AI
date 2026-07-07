@@ -14,7 +14,7 @@ This guide contains detailed development workflows, testing instructions, build 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/InterviewPilot-AI.git
+   git clone https://github.com/yashcodess/InterviewPilot-AI.git
    cd InterviewPilot-AI
    ```
 

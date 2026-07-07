@@ -1,7 +1,9 @@
 # ✈️ InterviewPilot AI
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/your-username/InterviewPilot-AI/main/public/logo-placeholder.png" alt="InterviewPilot AI Logo" width="120" height="120" style="border-radius: 24px; margin-bottom: 16px;" />
+  <!-- TODO: Add logo-placeholder.png to screenshots/ folder
+  <img src="./screenshots/logo-placeholder.png" alt="InterviewPilot AI Logo" width="120" height="120" style="border-radius: 24px; margin-bottom: 16px;" />
+  -->
   
   <p><strong>A Modern, High-Fidelity, AI-Powered Mock Interview Simulator.</strong></p>
 
@@ -27,12 +29,14 @@ To guarantee performance on the Gemini API free tier, the platform implements pr
 
 ## 🔗 Live Demo & Mockups
 
-* **Live Platform Application:** **[InterviewPilot AI Web Application](https://yash-interviewpilot-ai.vercel.app)** *(Link Placeholder)*
+* **Live Platform Application:** **[InterviewPilot AI Web Application](https://yash-interviewpilot-ai.vercel.app)**
 * **Interactive Demo GIF:**
 
+<!-- TODO: Add demo-walkthrough.gif to screenshots/ folder
 <div align="center">
-  <img src="https://raw.githubusercontent.com/your-username/InterviewPilot-AI/main/screenshots/demo-walkthrough.gif" alt="InterviewPilot AI Demo Walkthrough" width="800" style="border-radius: 12px; border: 1px solid #1e293b;" />
+  <img src="./screenshots/demo-walkthrough.gif" alt="InterviewPilot AI Demo Walkthrough" width="800" style="border-radius: 12px; border: 1px solid #1e293b;" />
 </div>
+-->
 
 ---
 
@@ -154,8 +158,8 @@ InterviewPilot-AI/
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/InterviewPilot-AI.git
-   cd InterviewPilot-AI
+    git clone https://github.com/yashcodess/InterviewPilot-AI.git
+    cd InterviewPilot-AI
    ```
 
 2. **Install Dependencies:**
@@ -257,10 +261,12 @@ The platform embeds glassmorphic redirection cards that link to an external/inte
 
 ## 🖼️ User Interface Screenshots
 
-* **Landing page:** [landing_page_mockup](https://raw.githubusercontent.com/your-username/InterviewPilot-AI/main/screenshots/landing.png)
-* **Practice Setup:** [setup_page_mockup](https://raw.githubusercontent.com/your-username/InterviewPilot-AI/main/screenshots/setup.png)
-* **Code Workspace:** [code_interview_mockup](https://raw.githubusercontent.com/your-username/InterviewPilot-AI/main/screenshots/workspace.png)
-* **Radar Dashboard:** [dashboard_page_mockup](https://raw.githubusercontent.com/your-username/InterviewPilot-AI/main/screenshots/dashboard.png)
+<!-- TODO: Add landing.png, setup.png, workspace.png, and dashboard.png to screenshots/ folder
+* **Landing page:** ![Landing Page](./screenshots/landing.png)
+* **Practice Setup:** ![Practice Setup](./screenshots/setup.png)
+* **Code Workspace:** ![Code Workspace](./screenshots/workspace.png)
+* **Radar Dashboard:** ![Radar Dashboard](./screenshots/dashboard.png)
+-->
 
 ---
 
@@ -295,7 +301,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 👤 Author & Credits
 
 * **Yash Mohite** - B.Tech Computer Science (AI/ML) Student.
-* **GitHub Profile:** [yash-mohite](https://github.com/your-username)
+* **GitHub Profile:** [yashcodess](https://github.com/yashcodess)
 * **LinkedIn:** [Yash Mohite](https://linkedin.com)
 
 ---
