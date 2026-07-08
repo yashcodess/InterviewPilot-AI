@@ -36,7 +36,6 @@ To guarantee performance on the Gemini API free tier, the platform implements pr
 ## 🔗 Live Demo & Mockups
 
 * **Live Platform Application:** **[InterviewPilot AI Web Application](https://yash-interviewpilot-ai.vercel.app)**
-* **Interactive Demo GIF:**
 
 <!-- TODO: Add demo-walkthrough.gif to screenshots/ folder
 <div align="center">
